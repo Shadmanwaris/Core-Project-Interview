@@ -6,7 +6,7 @@
 
 The idea is to **demonstrate how to write a typical, non-trivial CRUD application using Angular**. To showcase Angular in its most advantageous environment we've set out to write a simplified User management tool supporting teams. The sample application tries to show best practices when it comes to: folders structure, using modules, communicating with a REST back-end, organizing navigation.
 
-<a href="http://goo.gl/gKEsIo"><img src="http://www.packtpub.com/sites/default/files/1820OS.jpg"></a>
+<a><img src="https://github.com/Shadmanwaris/Core-Project-Interview/blob/master/UI/src/assets/images/download%20(11).png"></a>
 
 ## Stack
 
