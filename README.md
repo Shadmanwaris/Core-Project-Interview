@@ -1,4 +1,4 @@
-# [Angular](http://www.angular.io/) Core Technical Round Project (Full Stack)
+# [Angular](http://www.angular.io/) Developer - Technical Round Project by Core
 
 ---
 
