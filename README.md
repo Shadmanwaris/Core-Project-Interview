@@ -6,7 +6,22 @@
 
 The idea is to **demonstrate how to write a typical, non-trivial CRUD application using Angular**. To showcase Angular in its most advantageous environment we've set out to write a simplified User management tool supporting teams. The sample application tries to show best practices when it comes to: folders structure, using modules, communicating with a REST back-end, organizing navigation.
 
+### Screenshot 1:
 <a><img src="https://github.com/Shadmanwaris/Core-Project-Interview/blob/master/UI/src/assets/images/download%20(11).png"></a>
+### Screenshot 2:
+<a><img src="https://github.com/Shadmanwaris/Core-Project-Interview/blob/master/UI/src/assets/images/download%20(12).png"></a>
+### Screenshot 3:
+<a><img src="https://github.com/Shadmanwaris/Core-Project-Interview/blob/master/UI/src/assets/images/download%20(13).png"></a>
+### Screenshot 4:
+<a><img src="https://github.com/Shadmanwaris/Core-Project-Interview/blob/master/UI/src/assets/images/download%20(14).png"></a>
+### Screenshot 5:
+<a><img src="https://github.com/Shadmanwaris/Core-Project-Interview/blob/master/UI/src/assets/images/download%20(15).png"></a>
+### Screenshot 6:
+<a><img src="https://github.com/Shadmanwaris/Core-Project-Interview/blob/master/UI/src/assets/images/download%20(16).png"></a>
+### Screenshot 7:
+<a><img src="https://github.com/Shadmanwaris/Core-Project-Interview/blob/master/UI/src/assets/images/download%20(17).png"></a>
+### Screenshot 8:
+<a><img src="https://github.com/Shadmanwaris/Core-Project-Interview/blob/master/UI/src/assets/images/download%20(17).png"></a>
 
 ## Stack
 
