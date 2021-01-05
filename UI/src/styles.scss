@@ -1,0 +1,89 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.remove-margin-bottom {
+  margin-bottom: 0rem !important;
+}
+
+.form-field-100 {
+  width: 100%;
+}
+
+mat-form-field.mat-form-field {
+  font-size: 12px;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.mat-tab-body-content {
+  overflow-x: hidden !important;
+}
+
+.margin-top-25 {
+  margin-top: 25px;
+}
+
+.submit-button {
+  background-color: green;
+  color: whitesmoke;
+}
+
+.register-link {
+  text-decoration: none;
+}
+
+.register-link:hover {
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.dashboard {
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.table-container {
+  width: 80%;
+  margin: 45px auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-table-title {
+  padding: 25px 25px 5px 25px;
+  font-weight: 500;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.table-info-icon {
+  padding: 10px 10px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.update-button {
+  background-color: green;
+  color: whitesmoke;
+}
+
+.close-button {
+  position: absolute;
+  right: 26.5%;
+  cursor: pointer;
+  z-index: 111;
+  outline: none;
+}

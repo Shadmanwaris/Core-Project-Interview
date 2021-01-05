@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS users (
+  id serial primary key not null,
+  name varchar(200) not null,
+  email varchar(200) unique not null,
+  mobile varchar(12) unique not null,
+  hash text not null,
+  salt text not null,
+  active boolean default false,
+  token varchar(255) null
+  )

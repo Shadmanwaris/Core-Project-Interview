@@ -1,0 +1,64 @@
+<div class="container">
+  <div class="login-form">
+    <div class="text-center">
+      <h3 class="remove-margin-bottom">Core School</h3>
+      <h1>Sign In</h1>
+    </div>
+    <div class="margin-top-25">
+      <form [formGroup]="loginForm" (ngSubmit)="login()">
+        <div class="row">
+          <div class="col-md-12">
+            <mat-form-field class="form-field-100" appearance="outline">
+              <mat-label>Email</mat-label>
+              <input type="email" formControlName="email" matInput placeholder="Enter your email">
+
+            </mat-form-field>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <mat-form-field class="form-field-100" appearance="outline">
+              <mat-label>Password</mat-label>
+              <input [type]="hide ? 'password' : 'text'" formControlName="password" matInput
+                placeholder="Enter your password">
+              <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+                [attr.aria-pressed]="hide">
+                <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+              </button>
+            </mat-form-field>
+
+          </div>
+        </div>
+        <div class="row margin-top-25">
+          <div class="col-md-6">
+            <a [routerLink]="['/register']" class="register-link" routerLinkActive="router-link-active">Create
+              Account</a>
+          </div>
+          <div class="col-md-6">
+            <button type="submit" class="submit-button float-right" mat-flat-button
+              [disabled]="!loginForm.valid">Login</button>
+          </div>
+        </div>
+        <div class="row margin-top-25">
+          <div class="col-md-12">
+            <div *ngIf="isValidInput('email')">
+              <small *ngIf="loginForm.hasError('required', 'email')">
+                Email is required.
+              </small>
+              <small *ngIf="loginForm.hasError('pattern', 'email')">
+                Must be a valid email format.
+              </small>
+            </div>
+            <div *ngIf="isValidInput('password')">
+              <small *ngIf="loginForm.hasError('required', 'password')">
+                Password is required.
+              </small>
+
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
